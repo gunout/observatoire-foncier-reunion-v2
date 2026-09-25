@@ -20,20 +20,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+
       - name: Build
         run: npm run build
         env:
           GITHUB_ACTIONS: "true"
+          VITE_INSEE_API_KEY: ${{ secrets.VITE_INSEE_API_KEY }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
