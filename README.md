@@ -1,184 +1,213 @@
-# Observatoire Foncier - La Réunion 2025
+<div align="center">
 
-[![Deploy](https://github.com/gunout/observatoire-foncier-reunion-v2/actions/workflows/deploy.yml/badge.svg)](https://github.com/gunout/observatoire-foncier-reunion-v2/actions/workflows/deploy.yml)
-[![Site](https://img.shields.io/badge/site-en%20ligne-18753C)](https://gunout.github.io/observatoire-foncier-reunion-v2/)
-[![License](https://img.shields.io/badge/License-MIT-000091)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18-000091?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-000091?logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6-B34000?logo=vite)](https://vitejs.dev/)
-[![Leaflet](https://img.shields.io/badge/Leaflet-1.9-18753C?logo=leaflet)](https://leafletjs.com/)
-[![Chart.js](https://img.shields.io/badge/Chart.js-4.4-E1000F?logo=chart.js)](https://www.chartjs.org/)
-[![Node](https://img.shields.io/badge/Node-20%2B-18753C?logo=node.js)](https://nodejs.org/)
-[![Data INSEE](https://img.shields.io/badge/Data-INSEE-000091)](https://www.insee.fr/)
-[![Data ARMOS OI](https://img.shields.io/badge/Data-ARMOS%20OI-18753C)](https://www.armos-oi.re/)
-[![Data Notaires](https://img.shields.io/badge/Data-Notaires-B34000)](https://www.notaires.fr/)
-[![Data BRGM](https://img.shields.io/badge/Data-BRGM-E1000F)](https://www.brgm.fr/)
+# 🏛️ Observatoire Foncier — La Réunion
 
-Analyse du potentiel foncier et de la crise du logement à La Réunion.
+### Analyse du potentiel foncier et de la crise du logement à La Réunion
 
-**Site en ligne** : https://gunout.github.io/observatoire-foncier-reunion-v2/
+*Plateforme de données ouvertes — République Française*
 
----
+[![Deploy to GitHub Pages](https://github.com/gunout/observatoire-foncier-reunion-v2/actions/workflows/deploy.yml/badge.svg)](https://github.com/gunout/observatoire-foncier-reunion-v2/actions/workflows/deploy.yml)
+[![Site en ligne](https://img.shields.io/badge/site-en%20ligne-18753C?style=for-the-badge)](https://gunout.github.io/observatoire-foncier-reunion-v2/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-000091?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-2.0.0-E1000F?style=for-the-badge)](https://github.com/gunout/observatoire-foncier-reunion-v2/releases)
 
-## Sommaire
+[![React](https://img.shields.io/badge/React-18-000091?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-000091?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6-B34000?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9-18753C?style=flat-square&logo=leaflet&logoColor=white)](https://leafletjs.com/)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.4-E1000F?style=flat-square&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
+[![Zustand](https://img.shields.io/badge/Zustand-5.0-000091?style=flat-square)](https://zustand-demo.pmnd.rs/)
 
-- [À propos](#à-propos)
-- [Contexte](#contexte)
-- [Contenu](#contenu)
-- [Fonctionnalités](#fonctionnalités)
-- [Stack technique](#stack-technique)
-- [Installation](#installation)
-- [Configuration des APIs](#configuration-des-apis)
-- [Déploiement](#déploiement)
-- [Structure du projet](#structure-du-projet)
-- [Accessibilité](#accessibilité)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
+[![Data INSEE](https://img.shields.io/badge/Data-INSEE-000091?style=flat-square)](https://www.insee.fr/)
+[![Data ARMOS OI](https://img.shields.io/badge/Data-ARMOS%20OI-18753C?style=flat-square)](https://www.armos-oi.re/)
+[![Data Notaires](https://img.shields.io/badge/Data-Notaires-B34000?style=flat-square)](https://www.notaires.fr/)
+[![Data BRGM](https://img.shields.io/badge/Data-BRGM-E1000F?style=flat-square)](https://www.brgm.fr/)
+
+[🌐 Voir le site](https://gunout.github.io/observatoire-foncier-reunion-v2/) · [📖 Documentation](#-à-propos) · [🐛 Signaler un bug](https://github.com/gunout/observatoire-foncier-reunion-v2/issues/new) · [✨ Proposer une amélioration](https://github.com/gunout/observatoire-foncier-reunion-v2/issues/new)
+
+</div>
 
 ---
 
-## À propos
+## 📋 Sommaire
 
-Plateforme de visualisation des données foncières, démographiques et socio-économiques du département 974.
-
-Elle centralise et rend exploitables les données dispersées entre l'INSEE, l'ARMOS OI, les Notaires, le BRGM et la DEAL, pour éclairer les politiques publiques d'aménagement et de logement.
-
----
-
-## Contexte
-
-La Réunion fait face à une tension structurelle :
-
-| Indicateur | Valeur |
-|------------|--------|
-| Population (INSEE RP 2023) | 889 679 hab. |
-| Nombre de communes | 24 |
-| Parc social (ARMOS OI 2026) | 86 293 logements |
-| Taux de logements sociaux | 24 % des résidences principales |
-| Taux de chômage (T2 2025) | 16 % |
-| Prix médian appartement ancien | 2 700 €/m² |
-| Prix médian appartement neuf | 5 230 €/m² |
-| Logements sociaux > 30 ans | 25 000 |
+- [À propos](#-à-propos)
+- [Contexte](#-contexte)
+- [Aperçu](#-aperçu)
+- [Fonctionnalités](#-fonctionnalités)
+- [Stack technique](#-stack-technique)
+- [Installation](#-installation)
+- [Configuration des APIs](#-configuration-des-apis)
+- [Déploiement](#-déploiement)
+- [Structure du projet](#-structure-du-projet)
+- [Accessibilité](#-accessibilité)
+- [Performance](#-performance)
+- [Contribuer](#-contribuer)
+- [Feuille de route](#-feuille-de-route)
+- [Licence](#-licence)
+- [Crédits](#-crédits)
 
 ---
 
-## Contenu
+## 🎯 À propos
 
-### 5 modules
+L'**Observatoire Foncier de La Réunion** est une plateforme web de visualisation et d'analyse des données foncières, démographiques et socio-économiques du département 974.
 
-- **Vue d'ensemble** : carte, statistiques, tableau triable
-- **Marché et Foncier** : construction, loyers, vacance, friches
-- **Société** : démographie, ménages, emploi
-- **Économie et Emploi** : mobilités, marché du travail
-- **Risques et Environnement** : cyclones, contraintes, énergies
+Elle centralise et rend exploitables les données dispersées entre l'INSEE, l'ARMOS OI, les Notaires, le BRGM et la DEAL, afin d'éclairer les politiques publiques d'aménagement et de logement.
 
-### 24 communes
-
-| Région | Communes |
-|--------|----------|
-| Nord | Saint-Denis, Sainte-Marie, Sainte-Suzanne |
-| Ouest | Saint-Paul, Le Port, La Possession, Saint-Leu, Les Trois-Bassins, L'Étang-Salé, Les Avirons |
-| Sud | Saint-Pierre, Le Tampon, Saint-Louis, Saint-Joseph, Petite-Île, Saint-Philippe, Entre-Deux, Cilaos |
-| Est | Saint-André, Saint-Benoît, Bras-Panon, Sainte-Rose, La Plaine-des-Palmistes, Salazie |
+Le projet est **100 % statique** : aucune base de données, aucun serveur à maintenir. Les données sont embarquées dans le bundle et le déploiement est automatisé via GitHub Actions.
 
 ---
 
-## Fonctionnalités
+## 📊 Contexte
 
-- Cartographie interactive avec Leaflet
-- 23 graphiques Chart.js
-- Tableau triable par population, parc social, prix
-- Recherche instantanée par commune
-- Export CSV des données filtrées
-- Design Marianne (DSFR)
-- Accessible RGAA 4.1 niveau AA
+La Réunion fait face à une **tension structurelle** entre croissance démographique, objectif Zéro Artificialisation Nette (ZAN) et contraintes naturelles majeures.
 
----
-
-## Stack technique
-
-| Couche | Technologie | Version |
-|--------|-------------|---------|
-| Frontend | React | 18.3 |
-| | TypeScript | 5.6 |
-| | Zustand | 5.0 |
-| | Leaflet | 1.9 |
-| | Chart.js | 4.4 |
-| Build | Vite | 6.0 |
-| CI/CD | GitHub Actions | — |
-| Hébergement | GitHub Pages | — |
+| Indicateur | Valeur | Source |
+|------------|--------|--------|
+| Population totale | 889 679 hab. | INSEE RP 2023 |
+| Nombre de communes | 24 | INSEE |
+| Parc de logements sociaux | 86 293 | ARMOS OI / RPLS 2026 |
+| Taux de logements sociaux | 24 % des résidences principales | ARMOS OI 2026 |
+| Taux de chômage | 16 % | INSEE T2 2025 |
+| Prix médian appartement ancien | 2 700 €/m² | Notaires 2025 |
+| Prix médian appartement neuf | 5 230 €/m² | Notaires 2025 |
+| Logements sociaux de plus de 30 ans | 25 000 | ARMOS OI 2026 |
 
 ---
 
-## Installation
+## 🖼️ Aperçu
 
-Prérequis : Node.js 20 ou supérieur.
+| Module | Description |
+|--------|-------------|
+| **Vue d'ensemble** | Carte interactive des 24 communes, indicateurs clés, tableau triable |
+| **Marché & Foncier** | Construction neuve, loyers par intercommunalité, vacance, friches |
+| **Société** | Démographie, composition des ménages, marché de l'emploi |
+| **Économie & Emploi** | Mobilités, secteurs d'activité, marché du travail |
+| **Risques & Environnement** | Cyclones, mouvements de terrain, contraintes réglementaires |
+
+---
+
+## ✨ Fonctionnalités
+
+### Analyse territoriale
+
+- 🗺️ **Cartographie interactive** des 24 communes (Leaflet + OpenStreetMap)
+- 📊 **23 graphiques interactifs** (Chart.js)
+- 📋 **Tableau triable** par population, parc social, prix, région
+- 🔍 **Recherche instantanée** avec suggestions
+- 🔄 **Filtres synchronisés** (carte ↔ graphiques ↔ tableau via Zustand)
+
+### Données & export
+
+- 📥 **Export CSV** des données filtrées
+- 📌 **Sources officielles** citées pour chaque indicateur
+- 🔄 **Rafraîchissement INSEE** (optionnel, via API)
+
+### Interface & conformité
+
+- 🎨 **Design System de l'État (DSFR)** — palette Marianne officielle
+- 📱 **Responsive** — mobile, tablette, desktop
+- ♿ **Accessible RGAA 4.1 niveau AA**
+- 🌐 **Multilingue** (fr)
+
+---
+
+## 🛠️ Stack technique
+
+| Couche | Technologie | Version | Rôle |
+|--------|-------------|---------|------|
+| Frontend | React | 18.3 | Interface utilisateur |
+| | TypeScript | 5.6 | Typage statique |
+| | Zustand | 5.0 | Gestion d'état |
+| | Leaflet | 1.9 | Cartographie interactive |
+| | Chart.js | 4.4 | Visualisations graphiques |
+| Build | Vite | 6.0 | Bundler ultra-rapide |
+| Design | DSFR | — | Système de Design de l'État |
+| CI/CD | GitHub Actions | — | Déploiement automatique |
+| Hébergement | GitHub Pages | — | CDN mondial gratuit |
+
+---
+
+## 🚀 Installation
+
+### Prérequis
+
+- **Node.js** ≥ 20 ([télécharger](https://nodejs.org/))
+- **npm** ≥ 10
+- **Git** (optionnel)
+
+### Cloner et lancer
 
     git clone https://github.com/gunout/observatoire-foncier-reunion-v2.git
     cd observatoire-foncier-reunion-v2
     npm install
     npm run dev
 
-Le navigateur s'ouvre sur http://localhost:5173
+Le navigateur s'ouvre automatiquement sur **http://localhost:5173**
+
+### Scripts disponibles
+
+| Commande | Description |
+|----------|-------------|
+| `npm run dev` | Serveur de développement |
+| `npm run build` | Build de production (génère `dist/`) |
+| `npm run preview` | Prévisualiser le build |
 
 ---
 
-## Configuration des APIs
+## 🔌 Configuration des APIs
 
-Le projet fonctionne avec des données embarquées (aucune API requise). Pour activer les données en temps réel, suivez les guides ci-dessous.
+Le projet fonctionne **sans aucune API** grâce aux données embarquées dans `src/data/modules-data.ts`. Les sections ci-dessous expliquent comment activer les données en temps réel.
 
-### API INSEE - Données Locales
+### 🇫🇷 API INSEE — Données Locales
 
-**Objet** : récupérer les populations légales et données de recensement en temps réel.
+**Objet** : populations légales, recensement, revenus (Filosofi).
 
-**Étape 1 - Créer un compte**
+**Étape 1 — Créer un compte**
 
-1. Aller sur https://portail-api.insee.fr
-2. Cliquer sur S'inscrire
-3. Remplir le formulaire (nom, email, organisme)
-4. Confirmer par email
+1. Aller sur [https://portail-api.insee.fr](https://portail-api.insee.fr)
+2. Cliquer sur **S'inscrire**
+3. Remplir le formulaire et confirmer par email
 
-**Étape 2 - Souscrire à l'API**
+**Étape 2 — Souscrire à l'API**
 
-1. Se connecter sur le portail
-2. Aller dans Catalogue
-3. Chercher Données locales
-4. Cliquer sur Souscrire
-5. Choisir le plan Gratuit
-6. Confirmer
+1. Se connecter au portail
+2. Aller dans **Catalogue** → chercher **« Données locales »**
+3. Cliquer sur **Souscrire** → choisir le plan **Gratuit**
 
-**Étape 3 - Récupérer la clé**
+**Étape 3 — Récupérer la clé**
 
-1. Aller dans Mes applications
-2. Créer une application nommée Observatoire Foncier
-3. Copier la clé API (format xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
+1. Aller dans **Mes applications**
+2. Créer une application (`Observatoire Foncier`)
+3. Copier la **clé API**
 
-**Étape 4 - Configurer en local**
+**Étape 4 — Configurer en local**
 
-Créer un fichier `.env.local` à la racine :
+Créer un fichier `.env.local` :
 
     VITE_INSEE_API_KEY=votre_cle_ici
 
-**Étape 5 - Configurer sur GitHub**
+**Étape 5 — Configurer sur GitHub**
 
-1. Aller sur https://github.com/gunout/observatoire-foncier-reunion-v2/settings/secrets/actions
-2. Cliquer New repository secret
-3. Nom : VITE_INSEE_API_KEY
+1. Aller sur **Settings → Secrets and variables → Actions**
+2. Cliquer **New repository secret**
+3. Nom : `VITE_INSEE_API_KEY`
 4. Valeur : coller la clé
-5. Cliquer Add secret
 
-**Étape 6 - Utiliser dans le code**
+**Étape 6 — Utiliser dans le code**
 
 Créer `src/data/insee-api.ts` :
 
     const INSEE_API_KEY = import.meta.env.VITE_INSEE_API_KEY || "";
 
-    export async function fetchPopulationInsee() {
+    export async function fetchPopulationInsee(): Promise<Record<string, number>> {
       if (!INSEE_API_KEY) return {};
       const res = await fetch(
         "https://api.insee.fr/donnees-locales/V0.1/donnees/geo@poplegales/COM-974",
-        { headers: { Authorization: "Bearer " + INSEE_API_KEY } }
+        { headers: { Authorization: `Bearer ${INSEE_API_KEY}` } }
       );
+      if (!res.ok) throw new Error(`INSEE ${res.status}`);
       const json = await res.json();
       const result: Record<string, number> = {};
       json.observations?.forEach((o: any) => {
@@ -189,39 +218,36 @@ Créer `src/data/insee-api.ts` :
 
 ---
 
-### API DVF - Demandes de Valeurs Foncières
+### 💰 API DVF — Demandes de Valeurs Foncières
 
-**Objet** : récupérer les transactions immobilières réelles (prix, surfaces, dates).
+**Objet** : transactions immobilières réelles (prix, surfaces, dates).
 
-**Étape 1 - Accéder aux données**
+**Option 1 — data.gouv.fr (gratuit)**
 
-1. Aller sur https://app.dvf.etalab.gouv.fr
-2. Télécharger le fichier du département 974 (format CSV)
-3. Ou utiliser l'API : https://api.data.gouv.fr
+1. Aller sur [https://app.dvf.etalab.gouv.fr](https://app.dvf.etalab.gouv.fr)
+2. Télécharger le fichier du département 974
+3. Parser le CSV dans votre code
 
-**Étape 2 - Alternative Apify**
+**Option 2 — Apify (API REST)**
 
-1. Aller sur https://apify.com
-2. Créer un compte gratuit
-3. Chercher l'acteur dltik/dvf-france-transactions
-4. Récupérer le token API
-
-**Étape 3 - Utiliser dans le code**
+1. Créer un compte sur [https://apify.com](https://apify.com)
+2. Chercher l'acteur `dltik/dvf-france-transactions`
+3. Récupérer le token API
 
     export async function fetchDVF() {
-      const res = await fetch("https://api.apify.com/v2/acts/dltik~dvf-france-transactions/run-sync-get-dataset-items?token=VOTRE_TOKEN", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ departement: "974" })
-      });
+      const res = await fetch(
+        "https://api.apify.com/v2/acts/dltik~dvf-france-transactions/run-sync-get-dataset-items?token=VOTRE_TOKEN",
+        { method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ departement: "974" }) }
+      );
       return res.json();
     }
 
 ---
 
-### API Géo - Contours communaux
+### 🗺️ API Géo — Contours communaux
 
-**Objet** : récupérer les contours géographiques des 24 communes.
+**Objet** : récupérer les contours géographiques des 24 communes (format GeoJSON).
 
 **Pas de clé requise.**
 
@@ -232,7 +258,7 @@ Créer `src/data/insee-api.ts` :
       return res.json();
     }
 
-Utilisation dans MapView :
+Utilisation dans `MapView.tsx` pour une **choroplèthe** :
 
     fetch("https://geo.api.gouv.fr/departements/974/communes?geometry=contour&format=geojson")
       .then(r => r.json())
@@ -240,149 +266,209 @@ Utilisation dans MapView :
         L.geoJSON(geojson, {
           style: (feature) => ({
             fillColor: getColor(feature.properties.nom),
-            weight: 1,
-            color: "#fff",
-            fillOpacity: 0.75
+            weight: 1, color: "#fff", fillOpacity: 0.75
           })
         }).addTo(map);
       });
 
 ---
 
-### API SITADEL - Permis de construire
+### 🏗️ API SITADEL — Permis de construire
 
-**Objet** : récupérer les permis de construire par commune.
+**Objet** : permis de construire par commune.
 
-**Étape 1 - Accéder aux données**
-
-1. Aller sur https://www.statistiques.developpement-durable.gouv.fr/sitadel
-2. Télécharger les données département 974 (format CSV)
-
-**Étape 2 - Alternative data.gouv.fr**
-
-1. Aller sur https://www.data.gouv.fr
-2. Chercher SITADEL
-3. Télécharger le jeu de données
+1. Aller sur [https://www.statistiques.developpement-durable.gouv.fr/sitadel](https://www.statistiques.developpement-durable.gouv.fr/sitadel)
+2. Télécharger les données du département 974 (CSV)
 
 ---
 
-## Déploiement
+## 🚢 Déploiement
 
-### Automatique
+### Automatique (recommandé)
 
-Chaque git push sur main déclenche un déploiement automatique via GitHub Actions.
+Chaque `git push` sur `main` déclenche un déploiement automatique :
 
 1. GitHub Actions détecte le push
-2. Build (npm run build)
+2. Build (`npm run build`)
 3. Publication sur GitHub Pages
 
-Suivre le déploiement : https://github.com/gunout/observatoire-foncier-reunion-v2/actions
+**Suivre le déploiement** : [onglet Actions](https://github.com/gunout/observatoire-foncier-reunion-v2/actions)
 
 ### Configuration initiale GitHub Pages
 
-1. Aller sur Settings → Pages
-2. Source : sélectionner GitHub Actions
-3. Cliquer Save
+1. Aller sur **Settings → Pages**
+2. **Source** : sélectionner **`GitHub Actions`**
+3. Cliquer **Save**
 
 ### Déclenchement manuel
 
     git commit --allow-empty -m "ci: trigger deploy"
     git push
 
-Ou via GitHub : Actions → Deploy to GitHub Pages → Run workflow.
+Ou via GitHub : **Actions** → **Deploy to GitHub Pages** → **Run workflow**.
 
 ---
 
-## Structure du projet
+## 📁 Structure du projet
 
     observatoire-foncier-reunion-v2/
-      .github/
-        workflows/
-          deploy.yml
-      src/
-        components/
-          Header.tsx
-          SearchBar.tsx
-          ExportButton.tsx
-          StatsGrid.tsx
-          MapView.tsx
-          ChartsPanel.tsx
-          DataTable.tsx
-          MarketModule.tsx
-          SocietyModule.tsx
-          EconomyModule.tsx
-          RiskModule.tsx
-        data/
-          modules-data.ts
-          insee-api.ts
-        stores/
-          filterStore.ts
-        App.tsx
-        main.tsx
-        index.css
-      public/
-      index.html
-      package.json
-      vite.config.ts
-      tsconfig.json
-      LICENSE
-      README.md
+    ├── .github/
+    │   └── workflows/
+    │       └── deploy.yml              # CI/CD GitHub Actions
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.tsx              # Bloc-marque Marianne
+    │   │   ├── SearchBar.tsx           # Recherche par commune
+    │   │   ├── ExportButton.tsx        # Export CSV
+    │   │   ├── StatsGrid.tsx           # Cartes d'indicateurs
+    │   │   ├── MapView.tsx             # Carte Leaflet
+    │   │   ├── ChartsPanel.tsx         # Graphiques Chart.js
+    │   │   ├── DataTable.tsx           # Tableau triable
+    │   │   ├── MarketModule.tsx        # Module Marché & Foncier
+    │   │   ├── SocietyModule.tsx       # Module Société
+    │   │   ├── EconomyModule.tsx       # Module Économie
+    │   │   └── RiskModule.tsx          # Module Risques
+    │   ├── data/
+    │   │   └── modules-data.ts         # Données embarquées
+    │   ├── stores/
+    │   │   └── filterStore.ts          # Zustand (état global)
+    │   ├── App.tsx                     # Navigation 5 onglets
+    │   ├── main.tsx                    # Point d'entrée React
+    │   └── index.css                   # Styles DSFR
+    ├── public/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.ts
+    ├── tsconfig.json
+    ├── LICENSE
+    └── README.md
 
 ---
 
-## Accessibilité
+## ♿ Accessibilité
 
-Conformité RGAA 4.1 niveau AA :
+Ce projet vise la conformité **RGAA 4.1 niveau AA** :
 
-- Lien d'évitement
-- Structure sémantique
-- Contrastes 4.5:1 minimum
-- Navigation clavier complète
-- Attributs ARIA
-- Focus visible
+- ✅ **Lien d'évitement** (« Aller au contenu principal »)
+- ✅ **Structure HTML sémantique** (`<header>`, `<main>`, `<table>`)
+- ✅ **Contrastes de couleurs** ≥ 4.5:1
+- ✅ **Navigation clavier** complète (Tab, Entrée)
+- ✅ **Attributs ARIA** (`role="tab"`, `aria-selected`, `aria-controls`)
+- ✅ **Focus visible** sur tous les éléments interactifs
+- ✅ **`prefers-reduced-motion`** respecté
+- ✅ **Pas de dépendance à la couleur seule**
 
 ---
 
-## Contribuer
+## ⚡ Performance
+
+- **100 % statique** — données embarquées, aucun backend
+- **CDN GitHub Pages** — distribution mondiale
+- **Bundle optimisé** — ~500 KB (159 KB gzip)
+- **Lazy loading** — modules chargés à la demande
+- **Cache navigateur** — assets fingerprintés
+
+---
+
+## 🤝 Contribuer
+
+Les contributions sont **bienvenues** !
 
 ### Signaler un bug
 
-Ouvrir une issue avec description, étapes de reproduction, comportement attendu.
+Ouvrir une [issue](https://github.com/gunout/observatoire-foncier-reunion-v2/issues/new) avec :
+- Description du problème
+- Étapes de reproduction
+- Comportement attendu vs observé
 
-### Workflow
+### Proposer une fonctionnalité
+
+Ouvrir une [issue](https://github.com/gunout/observatoire-foncier-reunion-v2/issues/new) avec le label `enhancement`.
+
+### Workflow de contribution
 
     git checkout -b feature/ma-fonctionnalite
     git commit -m "feat: ajout de ma fonctionnalité"
     git push origin feature/ma-fonctionnalite
 
+Puis ouvrir une **Pull Request**.
+
 ### Convention de commits
 
-- feat : nouvelle fonctionnalité
-- fix : correction de bug
-- docs : documentation
-- data : mise à jour des données
-- style : formatage
-- refactor : refactoring
-- chore : maintenance
+Ce projet suit [Conventional Commits](https://www.conventionalcommits.org/) :
+
+| Préfixe | Utilisation |
+|---------|-------------|
+| `feat:` | Nouvelle fonctionnalité |
+| `fix:` | Correction de bug |
+| `docs:` | Documentation |
+| `data:` | Mise à jour des données |
+| `style:` | Formatage |
+| `refactor:` | Refactoring |
+| `chore:` | Maintenance |
 
 ---
 
-## Licence
+## 🗺️ Feuille de route
 
-MIT — voir LICENSE
+- [x] 24 communes avec données officielles
+- [x] 5 modules d'analyse
+- [x] 23 graphiques interactifs
+- [x] Recherche par commune
+- [x] Export CSV
+- [x] Accessibilité RGAA AA
+- [ ] **Comparateur** de 2 à 4 communes
+- [ ] **Choroplèthe** avec contours communaux (API Géo)
+- [ ] **Export PDF** du tableau filtré
+- [ ] **Mode sombre**
+- [ ] **API INSEE** temps réel
+- [ ] **API DVF** transactions réelles
+- [ ] **SITADEL** permis de construire
+- [ ] **PWA** (mode hors-ligne)
 
 ---
 
-## Crédits
+## 📄 Licence
 
-**Données** : INSEE, ARMOS OI, Notaires, BRGM, DEAL, DGFiP, ADIL 974.
-
-**Design** : DSFR, DINUM, Etalab, OpenStreetMap France.
-
-**Bibliothèques** : React, Vite, TypeScript, Leaflet, Chart.js, Zustand.
+Ce projet est sous licence **MIT**. Voir [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-République Française — Liberté, Égalité, Fraternité
+## 🙏 Crédits
 
-Fait à La Réunion
+### Données
+
+| Source | Contribution |
+|--------|--------------|
+| **INSEE** | Recensement de la population (RP 2023) |
+| **ARMOS OI** | Parc social (RPLS 2026) |
+| **Notaires de France** | Prix immobilier (2026) |
+| **BRGM** | Géorisques |
+| **DEAL La Réunion** | Risques naturels |
+| **DGFiP** | Demandes de valeurs foncières |
+| **ADIL 974** | Observatoire des loyers |
+
+### Design & outils
+
+- **DSFR** — Système de Design de l'État
+- **DINUM** — Direction interministérielle du numérique
+- **Etalab** — API Géo
+- **OpenStreetMap France** — Fond de carte
+
+### Bibliothèques open source
+
+Merci aux mainteneurs de : **React**, **Vite**, **TypeScript**, **Leaflet**, **Chart.js**, **Zustand**.
+
+---
+
+<div align="center">
+
+**🏛️ République Française**
+
+*Liberté · Égalité · Fraternité*
+
+Fait avec ❤️ à La Réunion
+
+[⬆ Retour en haut](#-observatoire-foncier--la-réunion)
+
+</div>
